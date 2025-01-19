@@ -49,7 +49,7 @@ environment {
         }
         stage('Dockerize') {
             steps {
-                sh 'docker build -t insurance:latest .'
+                sh 'docker build -t insurance:latest'
             }
         }
         
